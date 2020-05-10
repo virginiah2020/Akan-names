@@ -1,6 +1,21 @@
 body{
     background-image: url("https://www.wallpapers13.com/wp-content/uploads/2016/02/Grass-mountains-sunset-3840x2400.jpg");
 }
+header{
+    background-color: cornflowerblue;
+    padding: 30px;
+}
+.navbar{
+    font-size: 20px;
+}
+a{
+    float: right;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    padding:10px;
+}
 h1{
     font-size: 35px;
     align-items: center;
@@ -32,4 +47,9 @@ input{
 #images img{
     height: 30vh;
     width: 50vh;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+#footer{
+    background-color: cornflowerblue;
 }

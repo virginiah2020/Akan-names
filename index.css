@@ -16,6 +16,9 @@ a{
     text-align: center;
     padding:10px;
 }
+a:hover{
+    color: cornflowerblue;
+}
 h1{
     font-size: 35px;
     align-items: center;

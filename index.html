@@ -69,34 +69,23 @@
     <img src="https://pictures.abebooks.com/POSTCARDFINDER/md/md30218998107.jpg">
     <img src="https://www.vmfa.museum/connect/wp-content/uploads/sites/20/2018/04/88_42.jpg">
 </div>
-
-    <div class="search">
-        <h2>Find your Akan name-Birthdate:</h2>
-        <div id="fill-form">
-            <label for="inputNumber">Year</label>
-            <input type="number" year="year" placeholder="year" required>
-            <div id="fill-form">
-            <label for="InputNumber">Month</label>
-           <input type="number" name="month" placeholder="month" required>
-           <div id="fill-form">
-            <label for="InputNumber">Day</label>
-            <input type="number" name="day" placeholder="day" required>
-            <div id="fill-form">
-            <input type="radio" id="male" name="gender" value="male">
-           <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br>
-            <div id="fill-form">
-            <input type="submit" value="find">
-       
-        </div>
-        </div>
+<div class="generator">
+    <h2>Find your Akan name:</h2>
+    
+    <form  class ="needs-validation" novalidate>
+       <input type="number" id="day" class="form-control" value="" placeholder="Day" min="1" max="31" required ><br>
+       <input type="number" id="month"  value="" placeholder="Month" min="1" max="12" required><br><br>
+       <input type="text" id="year"  value="" placeholder="Year" required><br><br>
+       <input type="radio" id="male"  name="gender" value="male"><strong>Male</strong>
+       <input type="radio" id="female"  name="gender" value="female" ><strong>Female</strong><br><br>
+       <input type="submit" id="submit" class="btn btn-secondary" onclick="getInfo()"  value="Submit">
+    </form>
+    
+       </div>
+    </div>
         </div>
         </div>
     </div>
     <script src="index.js"></script>
-    <div id="footer">
-     <p>@copyright2020.</p>
-    </div>
 </body>
 </html>

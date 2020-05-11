@@ -38,14 +38,9 @@ table{
     background-color: cornflowerblue;
     border: double;
 }
-.search{
-    display: flex;
-    flex-direction: row;
-}
-input{
-    padding-left: 50px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
+.needs-validation{
+    flex-direction: column;
+
 }
 #images img{
     height: 30vh;

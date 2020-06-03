@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient( to left,purple);
+    background-size: cover;
+     margin: 50px;
+}
+
+.desc-left{
+    color: black;
+    text-align: center;
+    background-size: cover;
+}
+
+h3,h4{
+    font-family: sans-serif;
+    color: lightsteelblue;
+    font-size: 50px; 
+}
+p{
+    font-size: 19px;
+    font-family: cursive;    
+}
+
+i{
+    color:lightsteelblue;
+}
+
+li{
+    font-family: cursive;
+}
+
+.apply-right{
+    padding: 50px;
+    border: none;
+    background: transparent ;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+
+.put {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.8em;
+} 
+
+@keyframes mover{
+    100%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-20px);
+    }
+}
